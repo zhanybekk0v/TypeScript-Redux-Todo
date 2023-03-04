@@ -5,9 +5,73 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('../src/assets/img/fon.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.px1 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.mt2 {
+  margin-top: 5rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.active {
+  margin-left: 7vw;
+}
+
+.todo {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.todo.completed span {
+  text-decoration: line-through;
+}
+
+.todo label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 1rem;
+  background: whitesmoke;
+  width: 70%;
+  margin-left: 15%;
+  color: black;
+}
+
+.todo i {
+  z-index: 2;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 20%;
+  left: 10%;
+}
+
+.input {
+  background-color: beige;
+}
+
+.btn {
+  margin-top: 35px;
+}
+
+.checkbox-customs{
+  position: none;
+  opacity: none;
 }
